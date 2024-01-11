@@ -13,5 +13,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`connection successful on PORT: ${PORT}`);
+  console.log(`connection in a Docker container successful on PORT: ${PORT}`);
 });
